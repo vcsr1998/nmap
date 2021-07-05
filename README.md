@@ -4,6 +4,11 @@
 # COMMANDS 
 
 
+# -Pn : IF host is up but blocking the ping detection
+
+        -Pn : mark the host as up ( without any scan ) tyhen allow the nmap to do the other scans
+
+
 # -p  => specified port
 
       nmap -p 80 10.20.1.1
